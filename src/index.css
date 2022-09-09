@@ -1,0 +1,86 @@
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #B1D0E0;
+}
+
+
+.App{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 1000px;
+}
+ .heading{
+   min-width: none;
+   position: absolute;
+   top: 80px;
+   font-style: italic;
+   font-size: 25px;
+   color: #0c191f;
+   font-weight: bold;
+ }
+
+.calculator{
+ 
+  width: 100%;
+  max-width: 500px;
+  border-radius: 20px;
+  overflow-x : hidden;
+  box-shadow: 20px 20px 20px rgba(0,0,0,.2);
+}
+  
+.display{
+  color: white;
+  padding: 25px;
+  text-align: right;
+  background-color: #1A374D;
+  font-size: 35px;
+  font-weight: lighter;
+  padding-right: 30px;
+}
+
+.display span{
+  padding: 7px;
+  font-size: 20px;
+  color: #888;
+  background-color: #1A374D;
+}
+
+button{
+  appearance: 0;
+  border: 0;
+  outline: 0;
+  font-size: 25px;
+  padding: 25px;
+  cursor: pointer;
+  transition: 0.4s;
+  color: white
+}
+
+button:hover{
+  opacity: .7;
+}
+
+
+.operators{
+  display: flex;
+}
+
+.operators button{
+  flex: 1 1 0%;
+  background-color: #d669c6;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.digits{
+  display: flex;
+  flex-wrap: wrap;
+}
+.digits button{
+  flex: 1 1 33.33%;
+  background-color: #1A374D ;
+}
