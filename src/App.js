@@ -49,7 +49,7 @@ function App() {
   return (
     <div className="App">
         <div className="heading">
-          <h1>Basic Calculator</h1>
+          <h1>Basic Calculator 2</h1>
         </div>
         <div className="calculator">
            <div className="display">
